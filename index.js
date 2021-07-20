@@ -13,22 +13,22 @@ var products = [
         {
             id:1,
             name:"product 1",
-            image:"/images/minhhai.jpg"
+            image:"/images/minhhai2.jpg"
         },
         {
             id:2,
             name:"product 2",
-            image:"/images/minhhai.jpg"
+            image:"/images/minhhai2.jpg"
         },
         {
             id:3,
             name:"product 3",
-            image:"/images/minhhai.jpg"
+            image:"/images/minhhai2.jpg"
         },
         {
             id:4,
             name:"product 4",
-            image:"/images/minhhai.jpg"
+            image:"/images/minhhai2.jpg"
         }
     ];
 
