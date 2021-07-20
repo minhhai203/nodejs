@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/thoitiet.css">
+    <title>API Thời tiết </title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-sm-1">
+                    <div id="img-weather">
+                      
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                   <div>
+                       <h3>Nhiệt độ hiện tại là: 
+                           <span class="nhietdo" id="nhietdo">
+                               
+                           </span>
+                           <sup>o</sup><sup>C</sup>
+                       </h3>
+                       <h4>Nhiệt độ thấp nhất : <span id="min"></span></h4>
+                       <h4>Nhiệt độ cao nhất : <span id="max"></span></h4>
+                       <h4>Độ ẩm : <span id="hum"></span><span>%</span></h4>
+                       <h4>Gió : <span id="wind"></span><span> km/h</span></h4>
+                   </div>
+                </div>
+                <div class="col-sm-6">
+                    <h2><span id="city"></span></h2>
+                    <h2><span id="desc"></span></h2>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 100px;" class="row">
+            <div id="weather" class="col-md-12">
+                <!-- <div class="item col-sm-3">
+                    <span id="time"></span>
+                </div> -->
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/thoitiet.js"></script>
+</body>
+</html>

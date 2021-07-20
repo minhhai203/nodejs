@@ -1,0 +1,47 @@
+.top{
+    float:left;
+    width: 1200px;
+    background-color: #aabbcc;
+    padding: 50px 0 ;
+}
+.left{
+    float: left;
+    width: 250px;
+    text-align: center;
+    padding: 50px;
+    margin-top: -180px;
+    background-color: #848e99;
+    margin-left: 30px;
+}
+.img1{
+    width: 200px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin:0 0 10px;
+}
+.bottom div{
+    float: left;
+}
+.right{
+    float: right;
+    width: 800px;
+    padding-left: 20px;
+}
+
+.left p{
+    padding-left: 10px;
+    line-height: 30px;
+}
+.left h2{
+    text-align: center;
+}
+body{
+    margin: 0px 50px 0px 50px;
+}
+.top h2{
+    text-align: center;
+}
+

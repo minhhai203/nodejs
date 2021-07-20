@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+}
+.txtNum{
+    width: 500px;
+}
+.number{
+    font-size: 18px;
+    color: red;
+    padding-left: 20px;
+}

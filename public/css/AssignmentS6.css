@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: #14182a !important;
+}
+.header {
+  min-height: 80px;
+  background-color: #1b2039;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  line-height: 80px;
+  z-index: 1;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+.title1 {
+  color: rgb(126, 194, 199);
+}
+.header .logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+.header .trend-songs {
+  float: right;
+  text-decoration: none;
+  color: #2cc8e5;
+  font-size: 16px;
+}
+.header .trend-songs-title {
+  float: left;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 500px;
+  text-overflow: ellipsis;
+}
+.main {
+  margin-top: 150px;
+}
+.item {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-bottom: 25px;
+  }
+.song a {
+  color: white;
+  text-decoration: none;
+}
+
+.h2-title {
+  color: rgb(126, 194, 199);
+}
+.img-music {
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 250px;
+  height: 250px;
+}
+.img-music:hover {
+  opacity: 75%;
+}
+.name-product {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.auhtor {
+  color: white;
+  text-align: center;
+}
+.section {
+  /* border-bottom: 2px solid rgba(255, 255, 255, 0.5); */
+  margin-bottom: 50px;
+}
+.trending-songs {
+  padding: 50px 100px;
+  color: #fff;
+  text-align: center;
+  margin: 50px;
+  
+}
+.trending-songs h4 {
+  font-style: italic;
+}
+.trending-songs-heading {
+  margin-bottom: 25px;
+  color: #2cc8e5;
+}
+.hr-bottom {
+  color: white;
+  margin-top: 10px;
+}
+.h3-title {
+  color: rgb(126, 194, 199);
+}
+.img-footer {
+  width: 120px;
+  padding-top: 5px;
+}
+.contact {
+  line-height: 2.5;
+}
+.links {
+  text-align: center;
+  letter-spacing: 5px;
+}
+.link-number {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+.links a {
+  text-decoration: none;
+}
+.choose {
+  background-color: black;
+}
+.link-number:hover {
+  background-color: bisque;
+}
+.h2-title1 {
+  color: rgb(126, 194, 199);
+  text-align: center;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.img-songs {
+  text-align: center;
+}
+.img-songs img {
+  width: 250px;
+}
+.detail {
+  text-align: center;
+  font-weight: 800;
+  font-style: italic;
+}
+.detail h2 {
+  font-weight: 900;
+  font-style: normal !important;
+}
+.information-songs {
+  width: 900px;
+}
+.information-songs p {
+  text-align: center;
+  padding-left: 250px;
+}
+audio {
+  padding-top: 20px;
+}
+.section3 {
+  height: 2000px;
+}
+.lyric-songs {
+  width: 400px;
+  margin-left: 400px;
+}
+.lyric-songs p {
+  font-size: 16px;
+  line-height: 25px;
+  word-wrap: break-word;
+}

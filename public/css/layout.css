@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgb(181, 196, 202);
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.header{
+    background-color: white;
+    border-bottom: 1px solid #cccccc;
+    padding: 20px 0;
+}
+.logo{
+    float: left;
+    width: 35%;
+}
+.toplinks{
+    float: right;
+    width: 50%;
+}
+.logo a{
+    font-size: 28px;
+    color: #222222;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.logo p{
+    font-size: 15px;
+    color: #444444;
+}
+.toplinks ul{
+    float: right;
+}
+.toplinks  li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+.toplinks  li a{
+    color: #222222;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 53px;
+}
+.main{
+    margin-top: 30px;
+}
+.nav{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #cccccc;
+}
+.menu{
+    float: left;
+
+}
+.menu li{
+    float: left;
+    list-style: none;
+    margin-right: 25px;
+}
+.menu li a{
+    font-size: 15px;
+    color: #222222;
+    text-decoration: none;
+    font-weight: 500;
+}
+.menu-right{
+    float: right;
+}
+.menu-right a{
+    font-size: 15px;
+    color: #222222;
+    text-decoration: none;
+    font-weight: 500;
+}
+.content{
+    float: left;
+    width: calc(66,67% - 15px);
+    background-color: white;
+    margin-right: 15px;
+}
+
+.sidebar{
+    float: right;
+    width: calc( 33.33% - 15px);
+    margin-left: 15px;
+}
+.sidebar .box{
+    float: left;
+    width: calc(100% - 60px);
+    padding: 30px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.box.first{
+    background-color: cornflowerblue;
+}
+.textbox{
+    margin: 10px 0 10px;
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+}
+.button{
+    margin: 10px 0 10px;
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+textarea{
+    padding-top: 30px;
+}

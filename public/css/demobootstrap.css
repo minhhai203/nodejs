@@ -1,0 +1,62 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgb(212, 212, 211)  !important;
+    
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0;
+}
+h3{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;  
+}
+.top{
+    height: 85px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 40px;
+    background-color: white;
+   
+}
+.items{
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+.img{
+    width: 75%;
+    padding-left: 60px;
+}
+.detail{
+    text-align: center;
+    line-height: 2.5;
+}
+.footer{
+    height: 33px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+.footer:hover{
+    background-color: tomato;
+}
+.top, .items{
+    box-shadow: 3px 3px rgb(94, 85, 85);
+}

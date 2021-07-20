@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("head")%>
+    <style>
+        img {
+            width: 100px;
+            height: 70px;
+
+        }
+
+        .item {
+            float: left;
+            margin-left: 50px;
+        }
+        body{
+            background-color: bisque;
+        }
+    </style>
+
+    <body>
+        <h1>Số lượng người truy cập trang : <%= count %>
+        </h1>
+        <% for(var i=0;i< products.length;i++) { %>
+            <div class="item">
+                <a href="/chi-tiet?id=<%= products[i].id %> ">
+                    <h2>
+                        <%= products[i].name %>
+                    </h2>
+                    <img src="<%= products[i].image %>" alt="">
+                </a>
+                <a href="/chi-tiet2/<%= products[i].id %> ">
+                    <h2>
+                        <%= products[i].name %>
+                    </h2>
+                </a>  
+            </div>
+
+            <% } %>
+                <div class="container">
+
+                    <%- include("row")%>
+
+                        <div style="margin-top: 100px;" class="row">
+                            <div id="weather" class="col-md-12">
+                                <!-- <div class="item col-sm-3">
+                    <span id="time"></span>
+                </div> -->
+
+                            </div>
+                        </div>
+                </div>
+
+
+                <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+                <script type="text/javascript" src="js/thoitiet.js"></script>
+    </body>
+
+</html>

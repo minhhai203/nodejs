@@ -1,0 +1,14 @@
+.box{
+    float: left;
+    width: 600px;
+    height: 600px;
+    margin: 50px;
+    border: 1px solid red;
+}
+.child{
+    float: left;
+    width: 100px;
+    height: 50px;
+    background-color: royalblue;
+    border: 1px solid orange;
+}

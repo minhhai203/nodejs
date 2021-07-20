@@ -1,0 +1,21 @@
+.header{
+    float: right; 
+}
+.img1{
+    width: 220px;
+}
+hr{
+    color:rgb(185, 34, 34);
+    background-color:rgb(231, 10, 66);
+}
+.h4{
+    color: red;
+    text-decoration: underline;
+}
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.p1{
+    text-align: center;
+}

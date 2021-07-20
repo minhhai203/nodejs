@@ -1,0 +1,14 @@
+.nhietdo{
+    color: red;
+    font-size: 30px;
+}
+.item{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.icon{
+    width: 100px;
+}
+.temp-max{
+    color: red;
+}
