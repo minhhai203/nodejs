@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();// Tao 1 ung dung express tu modul
-var port = 5000;
+var port = process.env.PORT | 5000;
 app.listen(port,function(){
     console.log("Server is running on port 5000...");
 });
