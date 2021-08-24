@@ -14,31 +14,52 @@
         }
 
         body {
-            background-color: bisque;
+            background-color: #ced6e0;
         }
+        
     </style>
 
     <body>
-        <h1>Số lượng người truy cập trang : <%= count %>
+        <h1>Danh sách tất cả khách hàng
         </h1>
-        <% for(var i=0;i< products.length;i++) { %>
-            <div class="item">
-                <a href="/chi-tiet?id=<%= products[i].id %> ">
-                    <h2>
-                        <%= products[i].name %>
-                    </h2>
-                    <img src="<%= products[i].image %>" alt="">
-                </a>
-                <a href="/chi-tiet2/<%= products[i].id %> ">
-                    <h2>
-                        <%= products[i].name %>
-                    </h2>
-                </a>
+        <br>
+            <div>
+                <form action="/khach-hang" method="get" class="col-md-6">
+                <div class="col-md-9">
+                    <input type="text" name="keyword" class="form-control" placeholder="Tìm kiếm..."/>
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+            
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Tên khách hàng</th>
+                        <th>Số CMT</th>
+                        <th>Địa Chỉ</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% for(var i=0;i<khachhangs.length;i++){ %>
+                        <tr>
+                            <td><%= khachhangs[i].TenKH %></td>
+                            <td><%= khachhangs[i].SoCMT %></td>
+                            <td><%= khachhangs[i].DiaChi %></td>
+                            <td><a href="/chi-tiet-khach-hang?id=<%= khachhangs[i].SoCMT %>">Chi tiết</a> </td>
+                            <td><a href="/update-khach-hang?id=<%= khachhangs[i].SoCMT %>">Sửa</a></td>
+                            <td><a href="/xoa-khach-hang?id=<%= khachhangs[i].SoCMT %>">Xóa</a></td>
+                        </tr>
+                    <% } %>
+                </tbody>
+                
+            </table>
+            <div>
+                <h3><a href="/them-khach-hang">Thêm khách hàng</a></h3>
             </div>
-
-            <% } %>
-
-
                 <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
                 <script type="text/javascript" src="js/thoitiet.js"></script>
     </body>
